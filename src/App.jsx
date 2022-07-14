@@ -5,8 +5,8 @@ import CorrectModule from './correctModule'
 import MultiInterface from './multiInterface.jsx'
 // let Right
 // try {
-  // throw new Error("error")
-//   Right = await  ErrorModule 
+//   // throw new Error("error")
+//   Right = await ErrorModule
 // } catch {
 //   Right = await  CorrectModule 
 // }
@@ -17,7 +17,7 @@ function App() {
       <p>App works</p>
       {/* <TopLevel /> */}
       {/* <Right /> */}
-      {/* <MultiInterface /> */}
+      <MultiInterface />
     </>
   )
 }
