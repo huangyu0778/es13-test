@@ -1,17 +1,23 @@
-import React, { useState } from 'react'
-
-
-import EventDemo from './useEventDemo';
-
+import React from 'react'
+import TopLevel from './topLevel.jsx'
+import ErrorModule from './errorModule'
+import CorrectModule from './correctModule'
+import MultiInterface from './multiInterface.jsx'
+// let Right
+// try {
+  // throw new Error("error")
+//   Right = await  ErrorModule 
+// } catch {
+//   Right = await  CorrectModule 
+// }
 
 function App() {
-  let [intervalFlag, setIntervalFlag] = useState(true);
-
-
   return (
     <>
       <p>App works</p>
-      <EventDemo />
+      {/* <TopLevel /> */}
+      {/* <Right /> */}
+      {/* <MultiInterface /> */}
     </>
   )
 }
